@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.thumbnail-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the entire space */
+}
+.search{
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+}
+.priceFilter{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart {
+  position: fixed;
+  right: 10px;
+  top: 0;
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.cartC {
+  position: fixed;
+  right: 110px;
+  top: 20px;
+  background-color: black;
+  color: whitesmoke;
+  height: 77px;
+  width: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  gap: 20px;
+  transition: background-color 0.3s, color 0.3s;
+
+}
